@@ -31,7 +31,6 @@ class AdminControllerTest {
 
     @Test
     void testGetAllUsers() {
-        // Prepare mock data
         List<User> mockUsers = new ArrayList<>();
         mockUsers.add(new User("user1", "SI", 10));
 
@@ -51,7 +50,6 @@ class AdminControllerTest {
 
     @Test
     void testGetUserDetails() {
-        // Prepare mock data
         String userId = "user1";
         User mockUser = new User(userId, "SI", 10);
 
@@ -71,7 +69,6 @@ class AdminControllerTest {
 
     @Test
     void testDeleteUser() {
-        // Prepare mock data
         String userId = "user1";
         User mockUser = new User(userId, "SI", 10);
 
